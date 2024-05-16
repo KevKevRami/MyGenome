@@ -17,6 +17,10 @@ ssh -Y ukyID@ukyID.cs.uky.edu
 cd rnaseq
 fastqc &
 ```
+
+Below are the forward sequence quality and adaptor reads:
+
+![ForwardReadQuality.PNG](/data/ForwardReadQuality.PNG)
 ## Findings:
 
 ## 
