@@ -10,6 +10,13 @@ A new diversal fungal genus identified as Pyricularia Oryzae has found itself in
 
 ## Sequence Trimming:
 
+The F1 and R1 sequence datasets were analyzed using FastQC:
+
+```$env:DISPLAY = 'localhost:0'
+ssh -Y ukyID@ukyID.cs.uky.edu
+cd rnaseq
+fastqc &
+```
 ## Findings:
 
 ## 
