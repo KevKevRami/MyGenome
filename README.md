@@ -38,6 +38,8 @@ UFVPY657_2_paired.fastq UFVPY657_2_unpaired.fastq /
 ILLUMINACLIP:adaptors.fasta:2:30:10 SLIDINGWINDOW:20:20 MINLEN:100
 ```
 
+## Velvet Optimiser:
+
 After trimmimg the sequence, we inputed the base values into the Velvet Advisor and got a recommend k-value of 111.
 
 To confirm this k-value, we ran the following VelvetOptimiser code:
