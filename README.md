@@ -48,6 +48,15 @@ cd /project/farman_s24cs485g/kjra239
 nano velvetoptimiser_noclean.sh
 sbatch velvetoptimiser_noclean.sh UFVPY657 61 131 10
 ```
+These were the findings of the VelvetOptimiser on these settings:
+
+![VelvetAssemblyRead1Findings.PNG](/data/VelvetAssemblyRead1Findings.PNG)
+
+Given that the VelvetOptimiser identified an optimal k-value of 91, we ran another sequence of code with a different k-range:
+
+```
+sbatch velvetoptimiser_noclean.sh UFVPY657 81 101 2
+```
 
 ## Findings:
 
