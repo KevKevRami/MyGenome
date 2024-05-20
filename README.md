@@ -21,6 +21,13 @@ fastqc &
 Below are the forward sequence quality and adaptor reads:
 
 ![ForwardReadQuality.PNG](/data/ForwardReadQuality.PNG)
+![ForwardReadAdaptor.PNG](/data/ForwardReadAdaptor.PNG)
+
+Below are the reverse sequence quality and adaptor reads:
+
+![ReverseReadQuality.PNG](/data/ReverseReadQuality.PNG)
+![ReverseReadAdaptor.PNG](/data/ReverseReadAdaptor.PNG)
+
 ## Findings:
 
 ## 
