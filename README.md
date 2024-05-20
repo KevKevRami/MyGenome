@@ -28,6 +28,16 @@ Below are the reverse sequence quality and adaptor reads:
 ![ReverseReadQuality.PNG](/data/ReverseReadQuality.PNG)
 ![ReverseReadAdaptor.PNG](/data/ReverseReadAdaptor.PNG)
 
+The following line of code was used to trim the sequences down after the previous findings (Do not include the slashes at the end of each line):
+
+``` java -jar ~/sequences/trimmomatic-0.38.jar /
+PE -threads 2 -phred33 -trimlog /
+UFVPY657_errorlog.txt A24/A24_CKDL230042317-1A_HGC52DSX7_L2_1.fq.gz /
+A24/A24_CKDL230042317-1A_HGC52DSX7_L2_2.fq.gz UFVPY657_1_paired.fastq UFVPY657_1_unpaired.fastq /
+UFVPY657_2_paired.fastq UFVPY657_2_unpaired.fastq /
+ILLUMINACLIP:adaptors.fasta:2:30:10 SLIDINGWINDOW:20:20 MINLEN:100
+```
+
 ## Findings:
 
 ## 
