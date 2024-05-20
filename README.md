@@ -60,6 +60,10 @@ Given that the VelvetOptimiser identified an optimal k-value of 91, we ran anoth
 sbatch velvetoptimiser_noclean.sh UFVPY657 81 101 2
 ```
 
+Below are the findings running this line of code:
+
+![VelvetAssemblyRead2Findings.PNG](/data/VelvetAssemblyRead2Findings.PNG)
+
 ## Findings:
 
 ## 
