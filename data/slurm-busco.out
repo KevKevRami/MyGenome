@@ -1,0 +1,65 @@
+SLURM_NODELIST: rome048
+PWD : /project/farman_s24cs485g/kjra239
+Lmod has detected the following error: The following module(s) are unknown:
+"ccs/singularity"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "ccs/singularity"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+2024-05-23 09:18:07 INFO:	***** Start a BUSCO v5.7.0 analysis, current time: 05/23/2024 09:18:07 *****
+2024-05-23 09:18:07 INFO:	Configuring BUSCO with local environment
+2024-05-23 09:18:07 INFO:	Running genome mode
+2024-05-23 09:18:07 INFO:	Downloading information on latest versions of BUSCO data...
+2024-05-23 09:18:10 INFO:	Input file is /project/farman_s24cs485g/kjra239/UFVPY657/velvet_UFVPY657_83_99_2_noclean/UFVPY657_final.fasta
+2024-05-23 09:18:10 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/ascomycota_odb10.2024-01-08.tar.gz'
+2024-05-23 09:18:19 INFO:	Decompressing file '/project/farman_s24cs485g/kjra239/busco_downloads/lineages/ascomycota_odb10.tar.gz'
+2024-05-23 09:18:26 INFO:	Running BUSCO using lineage dataset ascomycota_odb10 (eukaryota, 2024-01-08)
+2024-05-23 09:18:26 INFO:	Running 1 job(s) on bbtools, starting at 05/23/2024 09:18:26
+2024-05-23 09:18:27 INFO:	[bbtools]	1 of 1 task(s) completed
+2024-05-23 09:18:27 INFO:	Running 1 job(s) on miniprot_index, starting at 05/23/2024 09:18:27
+2024-05-23 09:18:30 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2024-05-23 09:18:33 INFO:	Running 1 job(s) on miniprot_align, starting at 05/23/2024 09:18:33
+2024-05-23 11:16:08 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2024-05-23 11:20:02 INFO:	***** Run HMMER on gene sequences *****
+2024-05-23 11:20:04 INFO:	Running 1706 job(s) on hmmsearch, starting at 05/23/2024 11:20:04
+2024-05-23 11:20:22 INFO:	[hmmsearch]	171 of 1706 task(s) completed
+2024-05-23 11:20:32 INFO:	[hmmsearch]	342 of 1706 task(s) completed
+2024-05-23 11:20:44 INFO:	[hmmsearch]	512 of 1706 task(s) completed
+2024-05-23 11:20:54 INFO:	[hmmsearch]	683 of 1706 task(s) completed
+2024-05-23 11:21:02 INFO:	[hmmsearch]	853 of 1706 task(s) completed
+2024-05-23 11:21:09 INFO:	[hmmsearch]	1024 of 1706 task(s) completed
+2024-05-23 11:21:14 INFO:	[hmmsearch]	1195 of 1706 task(s) completed
+2024-05-23 11:21:19 INFO:	[hmmsearch]	1365 of 1706 task(s) completed
+2024-05-23 11:21:33 INFO:	[hmmsearch]	1536 of 1706 task(s) completed
+2024-05-23 11:21:49 INFO:	[hmmsearch]	1706 of 1706 task(s) completed
+2024-05-23 11:21:51 INFO:	49 candidate overlapping regions found
+2024-05-23 11:21:51 INFO:	4915 exons in total
+2024-05-23 11:21:52 WARNING:	69 of 1671 Complete matches (4.1%) contain internal stop codons in Miniprot gene predictions
+2024-05-23 11:21:54 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset ascomycota_odb10                                                     |
+    -------------------------------------------------------------------------------------------
+    |C:97.9%[S:97.7%,D:0.2%],F:0.4%,M:1.7%,n:1706,E:4.1%                                       |
+    |1671    Complete BUSCOs (C)    (of which 69 contain internal stop codons)                 |
+    |1667    Complete and single-copy BUSCOs (S)                                               |
+    |4    Complete and duplicated BUSCOs (D)                                                   |
+    |7    Fragmented BUSCOs (F)                                                                |
+    |28    Missing BUSCOs (M)                                                                  |
+    |1706    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2024-05-23 11:21:54 INFO:	BUSCO analysis done with WARNING(s). Total running time: 7425 seconds
+
+***** Summary of warnings: *****
+2024-05-23 11:21:52 WARNING:busco.busco_tools.hmmer	69 of 1671 Complete matches (4.1%) contain internal stop codons in Miniprot gene predictions
+
+2024-05-23 11:21:54 INFO:	Results written in project/farman_s24cs485g/kjra239/UFVPY657/velvet_UFVPY657_83_99_2_noclean/UFVPY657_final_busco
+2024-05-23 11:21:54 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2024-05-23 11:21:54 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
